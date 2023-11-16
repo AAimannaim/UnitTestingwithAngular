@@ -27,4 +27,7 @@ describe('StudentComponent', () => {
     component.addStudent();
     expect(console.log).toHaveBeenCalledWith('Student Added:', studentName);
   });
+  it('should throw an error when triggerStudentAdd is called', () => {
+    expect(() => component.triggerStudentAdd()).toThrowError('Method not implemented.');
+  });
 });

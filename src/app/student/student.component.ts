@@ -12,4 +12,7 @@ export class StudentComponent {
     console.log('Student Added:', this.studentName);
     // You can perform additional logic here, e.g., send data to a service.
   }
+  triggerStudentAdd() {
+    throw new Error('Method not implemented.');
+  }
 }

@@ -32,4 +32,7 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('app-teacher')).toBeTruthy();
     expect(compiled.querySelector('app-school')).toBeTruthy();
   });
+  it('should throw an error when triggerStudentAdd is called', () => {
+    expect(() => component.triggerStudentAdd()).toThrowError('Method not implemented.');
+  })
 });
