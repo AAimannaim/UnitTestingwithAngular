@@ -1,0 +1,37 @@
+/* homepage.component.css */
+
+.homepage-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    display: block;
+    padding: 10px;
+    background-color: #2E7D32; /* Darker green for links */
+    color: #fff; /* White text color for links */
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  a:hover {
+    background-color: #43A047; /* Darker green on hover */
+    text-decoration: underline;
+  }
+  
