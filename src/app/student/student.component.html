@@ -1,4 +1,20 @@
-<div>
+<div class="student-container">
+    <h2>Welcome to the Student Page</h2>
+    <p>Explore the following links related to student activities:</p>
+  
+    <ul>
+      <!-- Link to Student Profile -->
+      <li><a routerLink="/student/profile">View Student Profile</a></li>
+  
+      <!-- Link to Courses -->
+      <li><a routerLink="/student/courses">Explore Courses</a></li>
+  
+      <!-- Link to Grades -->
+      <li><a routerLink="/student/grades">View Grades</a></li>
+    </ul>
+  </div>
+  <br>
+<div class="studentname-container">
     <label for="studentName">Student Name:</label>
     <input type="text" id="studentName" [(ngModel)]="studentName" />
     <button (click)="addStudent()">Add Student</button>
