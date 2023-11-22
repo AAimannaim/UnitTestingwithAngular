@@ -1,6 +1,23 @@
-<div>
+<div class="school-container">
+    <h2>Welcome to the School Page</h2>
+    <p>Explore the following links related to school activities:</p>
+  
+    <ul>
+      <!-- Link to School Profile -->
+      <li><a routerLink="/school/profile">View School Profile</a></li>
+  
+      <!-- Link to Courses -->
+      <li><a routerLink="/school/courses">Explore Courses</a></li>
+  
+      <!-- Link to Grades -->
+      <li><a routerLink="/school/grades">View Grades</a></li>
+    </ul>
+  </div>
+  <br>
+<div class="schoolname-container">
     <label for="schoolName">School Name:</label>
     <input type="text" id="schoolName" [(ngModel)]="schoolName" />
     <button (click)="addSchool()">Add School</button>
 </div>
+  <br>
   
